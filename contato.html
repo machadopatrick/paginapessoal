@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Tutorial de HTML5</title>
+    <meta name="description" content="Como usar as tags header, footer e article em
+                                          HTML5">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="contato.css" />
+    <script type="text/javascript">
+        teste
+
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index5.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a class="active" href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>UBER DO BROWN</h1>
+    </header>
+    <article>
+        <form class="form" action="/action_page.php">
+
+            <legend>
+                <h2>Entre em contato:</h2>
+            </legend><br/> Seu nome:<br/>
+            <input type="text" name="firstname" placeholder="Digite aqui seu nome" required="required">
+            <br/><br/> Seu e-mail:<br/>
+            <input type="text" name="firstemail" placeholder="Digite aqui seu email" required="required">
+            <br/><br/>
+            <br/><br/>
+            <button type="button" onclick="alert('Oi
+                amigos')">Botão</button>
+            <input type="button" value="Enviar" onClick="alert('Em breve estaremos aí'); return true">
+
+        </form>
+    </article>
+    <div>
+        <!-- Cat walking GIF from: http://www.anniemation.com/clip_art/graphics.html -->
+        <img id="cat" src="https://www.kasandbox.org/programming-images/misc/cat-walk.gif">
+    </div>
+
+    <script>
+        var catEl = document.getElementById("cat");
+
+        var startTime = new Date().getTime();
+        var walkTheCat = function() {
+            var currTime = new Date().getTime();
+            var secondsElapsed = ((currTime - startTime) / 1000);
+        };
+        walkTheCat();
+
+    </script>
+
+
+    <div class="footer">
+        <h4>
+            <center>Todos os direitos reservados. Projeto HTML Progressivo 2018</center>
+        </h4>
+    </div>
+</body>
+
+</html>
