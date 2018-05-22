@@ -1,0 +1,80 @@
+Body {
+    background-image: url(imagens/DSC_0001-1.jpg);
+    background-size: 100%;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    height: auto;
+    background-color: transparent;
+    color: black;
+}
+
+main {}
+
+nav {
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lime;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.active2 {
+    background-color: #4CAF50;
+    float: right;
+}
+
+section {
+    background-color: transparent;
+}
+
+h2 {
+    background-color: transparent;
+    color: black;
+}
+
+h4 {
+    background-color: transparent;
+    color: white;
+}
+
+legend {
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
